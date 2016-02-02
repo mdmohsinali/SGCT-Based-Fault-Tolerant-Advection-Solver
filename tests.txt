@@ -1,0 +1,18 @@
+set flags='-d -v 1'
+set flags='-d -f'
+set flags=-f
+run2dAdvect $flags -p 1
+run2dAdvect $flags -p 2
+run2dAdvect $flags -p 2 -l 2 -s 1 6 6
+run2dAdvect $flags -p 2 -l 2 -s 2 6 6
+run2dAdvect $flags -p 4 -l 2 -s 3 6 6
+run2dAdvect $flags -p 4 -l 3 -s 1 6 6
+run2dAdvect $flags -p 4 -l 3  11 11
+run2dAdvect $flags -p 8 -l 3 -s 5 10 10
+run2dAdvect $flags -p 8 -l 4 -s 1 10 10
+run2dAdvect $flags -p 16 -l 5 -s 6 10 10
+
+run2dAdvect $flags -l 3 -p 3 -s 3 
+run2dAdvect $flags -l 4 -p 6 -s 4 10 10
+run2dAdvect $flags -l 4 -p 7 -s 5 10 10 
+run2dAdvect $flags -l 4 -p 12 -s 6 11 11
