@@ -4,7 +4,7 @@
 #PBS -l mem=128GB
 #PBS -l walltime=00:06:00
 #PBS -N SGField
-#PBS -M md.ali@anu.edu.au
+#PBS -M mohsin.ali@anu.edu.au
 
 # best ncpus 64, mem 64GB, walltime 00:01:00 for 9 9 of 2d level 4
 # best ncpus 64, mem 128GB, walltime 00:09:00 for 10 10 of 2d level 4
@@ -21,7 +21,7 @@
 ##PBS -l walltime=02:00:00 # specify amount of walltime required hh:mm:ss
 ##PBS -l mem=220GB         # specify amount of memory required for all nodes (memory for each node x total nodes)
 ##PBS -N OpenMPI           # specify job name
-##PBS -M md.ali@anu.edu.au # specify email address where sending the email after aborting the job
+##PBS -M mohsin.ali@anu.edu.au # specify email address where sending the email after aborting the job
 
 # qsub jobname                # submit jobname job to the queue           
 # qstat                       # show the status of the PBS queues
